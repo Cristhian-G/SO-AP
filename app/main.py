@@ -35,16 +35,19 @@ def menu_principal():
         
         elif opcion == "2":
             pila_fcfs.mostrar_cola()
+            input(texto_color("Presione Enter para continuar...", "amarillo"))
         
         elif opcion == "3":
             if not pila_fcfs.esta_vacia():
                 pila_fcfs.ejecutar_fcfs()
+                input(texto_color("Presione Enter para continuar...", "amarillo"))
             else:
                 print(texto_negritas(texto_color("❌ No hay procesos en la cola para ejecutar")))
         
         elif opcion == "4":
             pila_fcfs.reiniciar()
             print(texto_negritas(texto_color("🔄 Simulación reiniciada","verde")))
+            sleep(3)
         
         elif opcion == "5":
             limpiar_pantalla()
@@ -122,7 +125,7 @@ if __name__ == "__main__":
     
     if opcion == "1":
         limpiar_pantalla()
-        sleep(5)
+        sleep(2)
         menu_principal()
     elif opcion == "2":
         limpiar_pantalla()
