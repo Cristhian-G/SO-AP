@@ -171,36 +171,13 @@ El algoritmo **First-Come, First-Served** funciona de la siguiente manera:
 - **Tiempo de espera**: Tiempo que cada proceso espera antes de ejecutarse
 - **Tiempo de retorno**: Tiempo total desde llegada hasta finalización
 
-## 🤝 Contribuir al Proyecto
-
-### Para contribuir:
-
-1. **Fork del proyecto**
-2. **Crea una rama para tu feature:**
-   ```bash
-   git checkout -b feature/nueva-funcionalidad
-   ```
-3. **Realiza tus cambios y tests:**
-   ```bash
-   python tests/test_main.py  # Verifica que todo funcione
-   ```
-4. **Commit de tus cambios:**
-   ```bash
-   git commit -m "feat: agregar nueva funcionalidad"
-   ```
-5. **Push a tu rama:**
-   ```bash
-   git push origin feature/nueva-funcionalidad
-   ```
-6. **Abre un Pull Request**
-
 ## 👨‍💻 Autorez
 
-**Cristhian German Ramirez Ruiz**
-**Irene Perez**
-**Alan Iñiguez Muños**
-**Cristopher Barajas Salvador**
+- **Cristhian German Ramirez Ruiz**
+- **Irene Perez**
+- **Alan Iñiguez Muños**
+- **Cristopher Barajas Salvador**
 
 ---
 
-⭐ **¡No olvides dar una estrella al proyecto si te resulta útil!** ⭐
+⭐ **¡Múchas Gracias por su tiempo!** ⭐
